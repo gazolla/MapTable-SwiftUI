@@ -14,6 +14,10 @@
 		C3D5BD17286CD312008F1BD5 /* MapTable_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD16286CD312008F1BD5 /* MapTable_SwiftUITests.swift */; };
 		C3D5BD21286CD312008F1BD5 /* MapTable_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD20286CD312008F1BD5 /* MapTable_SwiftUIUITests.swift */; };
 		C3D5BD23286CD312008F1BD5 /* MapTable_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD22286CD312008F1BD5 /* MapTable_SwiftUIUITestsLaunchTests.swift */; };
+		C3D5BD30286CDC98008F1BD5 /* VenueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD2F286CDC98008F1BD5 /* VenueView.swift */; };
+		C3D5BD32286CDD11008F1BD5 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD31286CDD11008F1BD5 /* Venue.swift */; };
+		C3D5BD34286CE1A1008F1BD5 /* VenueDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD33286CE1A1008F1BD5 /* VenueDataService.swift */; };
+		C3D5BD36286CE62A008F1BD5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD35286CE62A008F1BD5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		C3D5BD1C286CD312008F1BD5 /* MapTable-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapTable-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D5BD20286CD312008F1BD5 /* MapTable_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTable_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		C3D5BD22286CD312008F1BD5 /* MapTable_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTable_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3D5BD2F286CDC98008F1BD5 /* VenueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueView.swift; sourceTree = "<group>"; };
+		C3D5BD31286CDD11008F1BD5 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		C3D5BD33286CE1A1008F1BD5 /* VenueDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDataService.swift; sourceTree = "<group>"; };
+		C3D5BD35286CE62A008F1BD5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				C3D5BD07286CD30E008F1BD5 /* ContentView.swift */,
 				C3D5BD09286CD312008F1BD5 /* Assets.xcassets */,
 				C3D5BD0B286CD312008F1BD5 /* Preview Content */,
+				C3D5BD2F286CDC98008F1BD5 /* VenueView.swift */,
+				C3D5BD31286CDD11008F1BD5 /* Venue.swift */,
+				C3D5BD33286CE1A1008F1BD5 /* VenueDataService.swift */,
+				C3D5BD35286CE62A008F1BD5 /* MapView.swift */,
 			);
 			path = "MapTable-SwiftUI";
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D5BD08286CD30E008F1BD5 /* ContentView.swift in Sources */,
+				C3D5BD36286CE62A008F1BD5 /* MapView.swift in Sources */,
+				C3D5BD34286CE1A1008F1BD5 /* VenueDataService.swift in Sources */,
+				C3D5BD32286CDD11008F1BD5 /* Venue.swift in Sources */,
 				C3D5BD06286CD30E008F1BD5 /* MapTable_SwiftUIApp.swift in Sources */,
+				C3D5BD30286CDC98008F1BD5 /* VenueView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

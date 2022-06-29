@@ -6,43 +6,19 @@
 //
 
 import SwiftUI
-import MapKit
+
 
 struct ContentView: View {
     @State var showView: Bool = true
-    @State private var region = MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 37.334_900,
-                                           longitude: -122.009_020),
-            latitudinalMeters: 750,
-            longitudinalMeters: 750
-        )
     
     var body: some View {
-        VStack{
-            Map(coordinateRegion: $region)
-                .ignoresSafeArea()
-        }
+        MapView()
         .sheet(isPresented: $showView) {
-            MySheetView()
+            VenueView()
         }
     }
 }
 
-struct MySheetView: View {
-    @Environment(\.dismiss) var dismiss
-    
-    var body: some View {
-        VStack{
-            Text("Hello from sheet!")
-                .presentationDetents([.small, .medium, .large])
-            //.presentationDragIndicator(.hidden)
-            
-            Button("Press to dismiss") {
-                        dismiss()
-            }
-        }
-    }
-}
 
 // MARK: Small Custom Detent
 extension PresentationDetent{
