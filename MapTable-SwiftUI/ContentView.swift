@@ -6,15 +6,24 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
+    
+    @State private var region = MKCoordinateRegion(
+            center: CLLocationCoordinate2D(latitude: 37.334_900,
+                                           longitude: -122.009_020),
+            latitudinalMeters: 750,
+            longitudinalMeters: 750
+        )
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+       
+            NavigationStack{
+                Map(coordinateRegion: $region)
+                    .ignoresSafeArea()
+            }
+        .navigationTitle("Map")
     }
 }
 
