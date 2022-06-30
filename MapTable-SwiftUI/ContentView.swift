@@ -22,7 +22,7 @@ struct ContentView: View {
 
 // MARK: Small Custom Detent
 extension PresentationDetent{
-    static let small = Self.height(100)
+    static let small = Self.height(250)
 }
 
 struct ContentView_Previews: PreviewProvider {
