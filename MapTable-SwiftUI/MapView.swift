@@ -36,8 +36,12 @@ class InitialRegion {
 
 struct MapView: View {
     @State private var region:MKCoordinateRegion = InitialRegion.instance.region
+    @State private var venues:[Venue] = VenueViewModel().venues
     var body: some View {
-        Map(coordinateRegion:$region)
+        Map(coordinateRegion:$region, annotationItems:venues){
+                MapMarker(coordinate: $0.coordinate)
+           
+        }
             .ignoresSafeArea()
     }
     

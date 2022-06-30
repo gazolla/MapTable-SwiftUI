@@ -33,7 +33,13 @@ struct VenueView: View {
         VStack{
             NavigationStack{
                 List(vvm.venues){venue in
-                    Text(venue.name)
+                    VStack(alignment: .leading){
+                        Text(venue.name)
+                            .font(.headline)
+                        Text(venue.category)
+                            .font(.subheadline)
+                    }
+                   
                 }
             }
                 .presentationDetents([.small, .medium, .large])
