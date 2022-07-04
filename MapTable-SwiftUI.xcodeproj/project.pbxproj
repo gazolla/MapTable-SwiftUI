@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C38CF1EB287272BF006D0FE7 /* VenueMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38CF1EA287272BF006D0FE7 /* VenueMapAnnotationView.swift */; };
 		C3D5BD06286CD30E008F1BD5 /* MapTable_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD05286CD30E008F1BD5 /* MapTable_SwiftUIApp.swift */; };
 		C3D5BD08286CD30E008F1BD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5BD07286CD30E008F1BD5 /* ContentView.swift */; };
 		C3D5BD0A286CD312008F1BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D5BD09286CD312008F1BD5 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C38CF1EA287272BF006D0FE7 /* VenueMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueMapAnnotationView.swift; sourceTree = "<group>"; };
 		C3D5BD02286CD30E008F1BD5 /* MapTable-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapTable-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D5BD05286CD30E008F1BD5 /* MapTable_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTable_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C3D5BD07286CD30E008F1BD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				C3D5BD31286CDD11008F1BD5 /* Venue.swift */,
 				C3D5BD33286CE1A1008F1BD5 /* VenueDataService.swift */,
 				C3D5BD35286CE62A008F1BD5 /* MapView.swift */,
+				C38CF1EA287272BF006D0FE7 /* VenueMapAnnotationView.swift */,
 			);
 			path = "MapTable-SwiftUI";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				C3D5BD08286CD30E008F1BD5 /* ContentView.swift in Sources */,
 				C3D5BD36286CE62A008F1BD5 /* MapView.swift in Sources */,
 				C3D5BD34286CE1A1008F1BD5 /* VenueDataService.swift in Sources */,
+				C38CF1EB287272BF006D0FE7 /* VenueMapAnnotationView.swift in Sources */,
 				C3D5BD32286CDD11008F1BD5 /* Venue.swift in Sources */,
 				C3D5BD06286CD30E008F1BD5 /* MapTable_SwiftUIApp.swift in Sources */,
 				C3D5BD30286CDC98008F1BD5 /* VenueView.swift in Sources */,
