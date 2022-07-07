@@ -15,6 +15,7 @@ struct ContentView: View {
         .sheet(isPresented: $showView) {
             VenueView()
         }
+        
     }
 }
 

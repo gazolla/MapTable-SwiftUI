@@ -11,7 +11,7 @@ struct VenueMapAnnotationView: View {
     var body: some View {
         VStack(spacing:0){
             Circle()
-                .strokeBorder(.red, lineWidth: 6)
+                .strokeBorder(.red, lineWidth: 7)
                 .background(Circle().fill(.white))
                 .scaledToFit()
                 .frame(width: 24, height: 24)
